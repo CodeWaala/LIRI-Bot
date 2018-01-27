@@ -1,0 +1,26 @@
+{
+  "name": "liri-bot",
+  "version": "1.0.0",
+  "description": "liri bot takes request for song movie and displays tweets",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWaala/LIRI-Bot.git"
+  },
+  "author": "Abhishek Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWaala/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/CodeWaala/LIRI-Bot#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-spotify-api": "^1.0.7",
+    "omdb-api-client": "^2.0.1",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
